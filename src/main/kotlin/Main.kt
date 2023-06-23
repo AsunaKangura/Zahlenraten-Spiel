@@ -27,7 +27,7 @@ fun main(args: Array<String>) {
     /*  Hier habe ich eine While Schleife aufgebaut, dass was in der Schleife steht,
         wird so lange ausgeführt bis die Eingabe und die generierte Zahl identisch sind.
         Die Variable Count wird für das zählen der Versuche verwendet. In der Variable Input kommt die Zahl des Nutzers rein.
-        Beide Zahlen bekommen den Inizialisierungs-Wert 0
+        Beide Variablen (count,input) bekommen den Inizialisierungs-Wert = 0
     */
     var count = 0
     var input: Int = 0
