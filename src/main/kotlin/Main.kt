@@ -23,6 +23,7 @@ fun main(args: Array<String>) {
     var firstName = readln()
     println("Hallo $firstName")
     println("Nun hat das Games eine Zahl generiert")
+    println("Viel Glück")
 
     /*  Hier habe ich eine While Schleife aufgebaut, dass was in der Schleife steht,
         wird so lange ausgeführt bis die Eingabe und die generierte Zahl identisch sind.
@@ -32,7 +33,7 @@ fun main(args: Array<String>) {
     var count = 0
     var input: Int = 0
     while (input != randomnumber) {
-        print("Bitte geben Sie eine Eingabe ein: ")
+        print("Bitte geben eine Zahl ein: ")
         input = readln().toInt()
         count++
     }
